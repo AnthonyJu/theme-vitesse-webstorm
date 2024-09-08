@@ -1,0 +1,53 @@
+{
+	"publisher": "AnthonyJu",
+	"name": "vscode-theme-vitesse-webstorm",
+	"displayName": "Vitesse Theme WebStorm",
+	"version": "0.1.0",
+	"packageManager": "pnpm@9.7.1",
+	"description": "A theme that combines WebStorm and Vitesse",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AnthonyJu/vscode-theme-vitesse-webstorm"
+	},
+	"keywords": [
+		"theme",
+		"vitesse",
+		"webstorm",
+		"dark"
+	],
+	"categories": [
+		"Themes"
+	],
+	"exports": {
+		"./*": "./*"
+	},
+	"icon": "icon.png",
+	"files": [
+		"LICENSE.md",
+		"icon.png",
+		"themes/*",
+		"images/*"
+	],
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Vitesse WebStorm Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vitesse-webstorm-dark.json"
+			}
+		]
+	},
+	"scripts": {
+		"release": "bumpp --all && vsce publish --no-dependencies",
+		"pack": "vsce pack --no-dependencies"
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^3.1.0",
+		"bumpp": "^9.5.2"
+	},
+	"preview": true
+}
