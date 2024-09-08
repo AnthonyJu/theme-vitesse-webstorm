@@ -2,7 +2,7 @@
 	"publisher": "AnthonyJu",
 	"name": "vscode-theme-vitesse-webstorm",
 	"displayName": "Vitesse Theme WebStorm",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"packageManager": "pnpm@9.7.1",
 	"description": "A theme that combines WebStorm and Vitesse",
 	"license": "MIT",

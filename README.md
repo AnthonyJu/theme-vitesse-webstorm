@@ -5,7 +5,7 @@ Vitesse WebStorm Dark is a dark theme designed for Visual Studio Code, inspired 
 ## Preview
 
 <p align="center">
-<img width="100%" alt="Screenshot" src="./images/image.png">
+<img width="100%" alt="Screenshot" src="https://raw.githubusercontent.com/AnthonyJu/theme-vitesse-webstorm//main/images/image.png">
 </p>
 
 ## Thanks
